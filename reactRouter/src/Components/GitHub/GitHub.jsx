@@ -12,9 +12,11 @@ function GitHub() {
     
     <div className='text-center m-4 bg-gray-600 text-white
     p-4 text-3xl flex ...'>
-    <img src={data.avatar_url} alt="Git Picture" width={300} />
+    <img src={data.avatar_url} alt="Git Picture" width="300" />
 
-    <div className='flex-1'> GitHub Profile Name : {data.name} <br></br>
+    <div className='flex-1'> <h2 className='bg-orange-700 m-1 p-1'>Data from GitHub API</h2> <br></br>
+    <br></br>
+    GitHub Profile Name : {data.name} <br></br>
     Location : {data.location}<br></br>
     Email : {data.blog} <br></br>
       <a href="https://github.com/prince-chaurasiya" target="_blank" rel="noopener noreferrer">
